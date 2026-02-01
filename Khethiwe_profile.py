@@ -169,6 +169,24 @@ elif menu == "Education":
     """, unsafe_allow_html=True)
 
 
+st.markdown("""
+    <div class="card">
+    <h3>Diploma in Mathematical Science</h3>
+    <p class="small-text">Cape Peninsula University of Technology · 2022 – 2024</p>
+
+    <h4>Coursework</h4>
+    <ul>
+        <li>Programming (Python, R, SAS)</li>
+        <li>Data Management</li>
+        <li>Operations Research</li>
+        <li>Biomathematics</li>
+        <li>Mathematical Statistics</li>
+        <li>Mathematical Science Project</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+
 # ---------------------------------------------------
 # WORK EXPERIENCE & PROJECTS
 # ---------------------------------------------------
@@ -240,6 +258,7 @@ elif menu == "Contact":
         </a>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
