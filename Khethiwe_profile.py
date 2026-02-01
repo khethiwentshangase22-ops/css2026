@@ -203,8 +203,7 @@ elif menu == "Work Experience & Projects":
     <div class="card">
     <h3>Student Debt Analytics</h3>
     <b>Tools:</b> R · Power BI<br><br>
-    <li> Built regression models and interactive dashboards to analyse
-    <li> financial and demographic trends.
+    <li> Built regression models and interactive dashboards to analyse financial and demographic trends.
     <li> Processed demographic and financial datasets using R.
     <li> Conducted multiple linear regression for predictive analysis. 
     <li> Designed interactive Power BI dashboards to visualise trends and key insights.
@@ -223,8 +222,13 @@ elif menu == "Contact":
     <h3>Let’s Connect</h3>
     <p>Interested in data analytics, risk, or collaboration?</p>
     <h4>📧 khethiwentshangase22@gmail.com</h4>
+    <h4> (076) 837 1596 <h4>
+    st.link_button(
+    "🔗 Visit my LinkedIn",
+    "www.linkedin.com/in/khethiwe-ntshangase-a091b0282")
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
