@@ -176,7 +176,7 @@ elif menu == "Work Experience & Projects":
 
     st.markdown("""
     <div class="card">
-    <h3>Data Analyst Intern — Statistics South Africa</h3>
+    <h3>Data Analyst Intern - Statistics South Africa</h3>
     <b>July 2024 – December 2024</b>
     <ul>
         <li>Cleaned and validated large survey datasets using R</li>
@@ -225,6 +225,7 @@ elif menu == "Contact":
     <h4>📧 khethiwentshangase22@gmail.com</h4>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
