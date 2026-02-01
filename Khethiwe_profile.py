@@ -5,7 +5,7 @@ import streamlit as st
 # ---------------------------------------------------
 
 st.set_page_config(
-    page_title="Data Analyst Profile",
+    page_title="Data Analyst",
     layout="wide"
 )
 
@@ -17,7 +17,7 @@ st.sidebar.title("Navigation")
 
 menu = st.sidebar.radio(
     "Go to:",
-    ["Data Analyst Profile", "Education", "Work Experience & Projects", "Contact"]
+    ["Profile",'About", "Education", "Work Experience & Projects", "Contact"]
 )
 
 # ---------------------------------------------------
@@ -41,6 +41,18 @@ if menu == "Data Analyst Profile":
         caption="Nature (Pixabay)"
     )
 
+
+
+#---------------------------------------------------
+# About Section
+#--------------------------------------------------
+
+elif menu == "About":
+   st.title("About")
+   st.write("""Mathematical Sciences graduate with a strong foundation in statistics, data science, programming,
+             and quantitative analysis, and hands-on experience working with real-world datasets at Statistics South Africa and CPUT.
+             Skilled in data analysis, reporting, R, SQL, SAS, Python, and Power BI, with experience in data validation, trend analysis, 
+               and producing analytical reports. Highly interested in credit risk, decision science, and analytics, and eager to apply quantitative skills in a structured risk environment""")
 # ---------------------------------------------------
 # Education Section
 # ---------------------------------------------------
@@ -172,5 +184,6 @@ elif menu == "Contact":
 
     st.write("You can reach me at:")
     st.write(f"📧 {email}")
+
 
 
