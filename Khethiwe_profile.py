@@ -5,7 +5,7 @@ import streamlit as st
 # ---------------------------------------------------
 
 st.set_page_config(
-    page_title="Data Analyst",
+    page_title="Data Analyst Profile",
     layout="wide"
 )
 
@@ -17,7 +17,7 @@ st.sidebar.title("Navigation")
 
 menu = st.sidebar.radio(
     "Go to:",
-    ["Profile","About", "Education", "Work Experience & Projects", "Contact"]
+    ["Data Analyst Profile","About", "Education", "Work Experience & Projects", "Contact"]
 )
 
 # ---------------------------------------------------
@@ -184,6 +184,7 @@ elif menu == "Contact":
 
     st.write("You can reach me at:")
     st.write(f"📧 {email}")
+
 
 
 
