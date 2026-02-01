@@ -126,6 +126,26 @@ elif menu == "About":
 # ---------------------------------------------------
 elif menu == "Education":
 
+    
+    st.markdown("""
+    <div class="card">
+    <h3>Postgraduate Diploma in Mathematical Science (NQF 8)</h3>
+    <b>Status:</b> Currently Pursuing
+
+    <h4>Coursework</h4>
+    <ul>
+        <li>Bayesian Statistics</li>
+        <li>Advanced Programming for Data Science</li>
+        <li>Convex Optimisation</li>
+        <li>Machine Learning 5A & 5B</li>
+        <li>Data Engineering & Visualisation</li>
+    </ul>
+
+    <h4>Tools</h4>
+    SAS · R · Python · SQL · Power BI · Tableau
+    </div>
+    """, unsafe_allow_html=True)
+
     st.markdown('<div class="section-title">🎓 Education</div>', unsafe_allow_html=True)
 
     st.markdown("""
@@ -148,24 +168,6 @@ elif menu == "Education":
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div class="card">
-    <h3>Postgraduate Diploma in Mathematical Science (NQF 8)</h3>
-    <b>Status:</b> Currently Pursuing
-
-    <h4>Coursework</h4>
-    <ul>
-        <li>Bayesian Statistics</li>
-        <li>Advanced Programming for Data Science</li>
-        <li>Convex Optimisation</li>
-        <li>Machine Learning 5A & 5B</li>
-        <li>Data Engineering & Visualisation</li>
-    </ul>
-
-    <h4>Tools</h4>
-    SAS · R · Python · SQL · Power BI · Tableau
-    </div>
-    """, unsafe_allow_html=True)
 
 # ---------------------------------------------------
 # WORK EXPERIENCE & PROJECTS
@@ -238,6 +240,7 @@ elif menu == "Contact":
         </a>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
