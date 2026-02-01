@@ -112,10 +112,10 @@ elif menu == "About":
 
     st.markdown("""
     <div class="card">
-    Mathematical Sciences graduate with a strong foundation in statistics,
-    data science, programming, and quantitative analysis.Experienced working with real-world datasets at Statistics South Africa
-    and CPUT. Skilled in R, Python, SQL, SAS, and Power BI, with a strong
-    interest in credit risk, decision science, and analytics.
+    Mathematical Sciences graduate with a strong foundation in statistics, data science, programming, and quantitative analysis, 
+    and hands-on experience working with real-world datasets at Statistics South Africa and CPUT. Skilled in data analysis, reporting, 
+    R, SQL, SAS, Python, and Power BI, with experience in data validation, trend analysis, and producing analytical reports.
+    Highly interested in credit risk, decision science, and analytics, and eager to apply quantitative skills in a structured risk environment
     </div>
     """, unsafe_allow_html=True)
 
@@ -225,6 +225,7 @@ elif menu == "Contact":
     <h4>📧 khethiwentshangase22@gmail.com</h4>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
