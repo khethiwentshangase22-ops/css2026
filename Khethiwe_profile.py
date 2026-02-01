@@ -113,9 +113,7 @@ elif menu == "About":
     st.markdown("""
     <div class="card">
     Mathematical Sciences graduate with a strong foundation in statistics,
-    data science, programming, and quantitative analysis.
-    <br><br>
-    Experienced working with real-world datasets at Statistics South Africa
+    data science, programming, and quantitative analysis.Experienced working with real-world datasets at Statistics South Africa
     and CPUT. Skilled in R, Python, SQL, SAS, and Power BI, with a strong
     interest in credit risk, decision science, and analytics.
     </div>
@@ -195,9 +193,9 @@ elif menu == "Work Experience & Projects":
     <div class="card">
     <h3>Impact of Socio-Economic Factors on Education Outcomes</h3>
     <b>Tools:</b> R<br><br>
-    - Analysed large-scale survey datasets using R for data cleaning, preprocessing, and exploratory analysis.
-    - Applied multinomial logistic regression to model relationships and predict education outcomes.
-    - Summarised findings through clear reporting and data visualisations..
+    <li> Analysed large-scale survey datasets using R for data cleaning, preprocessing, and exploratory analysis.
+    <li> Applied multinomial logistic regression to model relationships and predict education outcomes.
+    <li> Summarised findings through clear reporting and data visualisations..
     </div>
     """, unsafe_allow_html=True)
 
@@ -205,11 +203,11 @@ elif menu == "Work Experience & Projects":
     <div class="card">
     <h3>Student Debt Analytics</h3>
     <b>Tools:</b> R · Power BI<br><br>
-    Built regression models and interactive dashboards to analyse
-    financial and demographic trends.
-    Processed demographic and financial datasets using R.
-    Conducted multiple linear regression for predictive analysis. 
-    Designed interactive Power BI dashboards to visualise trends and key insights.
+    <li> Built regression models and interactive dashboards to analyse
+    <li> financial and demographic trends.
+    <li> Processed demographic and financial datasets using R.
+    <li> Conducted multiple linear regression for predictive analysis. 
+    <li> Designed interactive Power BI dashboards to visualise trends and key insights.
     </div>
     """, unsafe_allow_html=True)
 
@@ -227,6 +225,7 @@ elif menu == "Contact":
     <h4>📧 khethiwentshangase22@gmail.com</h4>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
