@@ -219,16 +219,27 @@ elif menu == "Contact":
 
     st.markdown("""
     <div class="card" style="text-align:center;">
-    <h3>Let’s Connect</h3>
-    <p>Interested in data analytics, risk, or collaboration?</p>
-    <h4>khethiwentshangase22@gmail.com</h4>
-    <h4> (076) 837 1596 <h4>
-    
+        <h3>Let’s Connect</h3>
+        <p>Interested in data analytics, risk, or collaboration?</p>
+        <h4>📧 khethiwentshangase22@gmail.com</h4>
+        <h4>📞 076 837 1596</h4>
+        <br>
+        <a href="https://www.linkedin.com/in/khethiwe-ntshangase-a091b0282"
+           target="_blank"
+           style="
+               text-decoration:none;
+               background-color:#6C63FF;
+               color:white;
+               padding:10px 20px;
+               border-radius:10px;
+               font-weight:600;
+           ">
+           🔗 Visit my LinkedIn
+        </a>
     </div>
     """, unsafe_allow_html=True)
-    st.link_button(
-    "Visit my LinkedIn",
-    "www.linkedin.com/in/khethiwe-ntshangase-a091b0282")
+
+
 
 
 
