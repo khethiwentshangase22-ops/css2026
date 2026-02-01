@@ -126,6 +126,7 @@ elif menu == "About":
 # ---------------------------------------------------
 elif menu == "Education":
 
+    st.markdown('<div class="section-title">🎓 Education</div>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="card">
@@ -146,7 +147,7 @@ elif menu == "Education":
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown('<div class="section-title">🎓 Education</div>', unsafe_allow_html=True)
+    
 
     st.markdown("""
     <div class="card">
@@ -259,6 +260,7 @@ elif menu == "Contact":
         </a>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
