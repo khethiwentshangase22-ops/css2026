@@ -54,7 +54,7 @@ elif menu == "About":
              Skilled in data analysis, reporting, R, SQL, SAS, Python, and Power BI, with experience in data validation, trend analysis, 
                and producing analytical reports. Highly interested in credit risk, decision science, and analytics, and eager to apply quantitative skills in a structured risk environment""")
 
-   st.image("https://media.licdn.com/dms/image/v2/D4D35AQHn43MlfbDTGA/profile-framedphoto-shrink_400_400/B4DZiFZ_ZgGgAg-/0/1754584840150?e=1770570000&v=beta&t=0Cnu35cvmqQbHH5KuVDOqBa_OSj-xf0td90Rm67Ac_s")
+   st.image("IMG_5415.JPEG", width=300")
 
 
 # ---------------------------------------------------
@@ -188,6 +188,7 @@ elif menu == "Contact":
 
     st.write("You can reach me at:")
     st.write(f"📧 {email}")
+
 
 
 
