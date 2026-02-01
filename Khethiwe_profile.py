@@ -195,7 +195,7 @@ elif menu == "Work Experience & Projects":
     <b>Tools:</b> R<br><br>
     <li> Analysed large-scale survey datasets using R for data cleaning, preprocessing, and exploratory analysis.
     <li> Applied multinomial logistic regression to model relationships and predict education outcomes.
-    <li> Summarised findings through clear reporting and data visualisations..
+    <li> Summarised findings through clear reporting and data visualisations.
     </div>
     """, unsafe_allow_html=True)
 
@@ -225,6 +225,7 @@ elif menu == "Contact":
     <h4>📧 khethiwentshangase22@gmail.com</h4>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
