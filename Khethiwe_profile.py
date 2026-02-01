@@ -17,7 +17,7 @@ st.sidebar.title("Navigation")
 
 menu = st.sidebar.radio(
     "Go to:",
-    ["Profile",'About", "Education", "Work Experience & Projects", "Contact"]
+    ["Profile","About", "Education", "Work Experience & Projects", "Contact"]
 )
 
 # ---------------------------------------------------
@@ -184,6 +184,7 @@ elif menu == "Contact":
 
     st.write("You can reach me at:")
     st.write(f"📧 {email}")
+
 
 
 
