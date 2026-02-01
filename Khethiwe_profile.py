@@ -221,13 +221,14 @@ elif menu == "Contact":
     <div class="card" style="text-align:center;">
     <h3>Let’s Connect</h3>
     <p>Interested in data analytics, risk, or collaboration?</p>
-    <h4>📧 khethiwentshangase22@gmail.com</h4>
+    <h4>khethiwentshangase22@gmail.com</h4>
     <h4> (076) 837 1596 <h4>
-    st.link_button(
-    "🔗 Visit my LinkedIn",
-    "www.linkedin.com/in/khethiwe-ntshangase-a091b0282")
+    
     </div>
     """, unsafe_allow_html=True)
+    st.link_button(
+    "Visit my LinkedIn",
+    "www.linkedin.com/in/khethiwe-ntshangase-a091b0282")
 
 
 
