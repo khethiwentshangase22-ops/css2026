@@ -167,15 +167,15 @@ elif menu == "Education":
     SAS · R · Python · SQL · Power BI
     </div>
     """, unsafe_allow_html=True)
+   
+    
+    st.markdown("""
+     <div class="card">
+     <h3>Diploma in Mathematical Science</h3>
+     <p class="small-text">Cape Peninsula University of Technology · 2022 – 2024</p>
 
-
-st.markdown("""
-    <div class="card">
-    <h3>Diploma in Mathematical Science</h3>
-    <p class="small-text">Cape Peninsula University of Technology · 2022 – 2024</p>
-
-    <h4>Coursework</h4>
-    <ul>
+     <h4>Coursework</h4>
+     <ul>
         <li>Programming (Python, R, SAS)</li>
         <li>Data Management</li>
         <li>Operations Research</li>
@@ -185,6 +185,7 @@ st.markdown("""
     </ul>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 # ---------------------------------------------------
@@ -258,6 +259,7 @@ elif menu == "Contact":
         </a>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
